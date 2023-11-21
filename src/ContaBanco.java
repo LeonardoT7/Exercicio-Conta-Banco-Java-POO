@@ -1,4 +1,4 @@
-public class contaBanco {
+public class ContaBanco {
     //Atributos
     public int numConta;
     protected String tipoConta;
@@ -81,7 +81,7 @@ public class contaBanco {
     }
 
     //Construtor
-    public contaBanco() {
+    public ContaBanco() {
     }
 
     //Getters e Setters

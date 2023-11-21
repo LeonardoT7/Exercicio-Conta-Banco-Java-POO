@@ -1,14 +1,14 @@
 public class Main{
     public static void main(String[] args) {
         //Criando a primeira conta, do tipo "Corrente".
-        contaBanco p1 = new contaBanco();
+        ContaBanco p1 = new ContaBanco();
         p1.abrirConta("CC");
         p1.setDonoConta("Bruce Wayne");
         p1.setNumConta(12345678);
         p1.setStatus(true);
 
         //Criando uma segunda conta, do tipo "Poupança".
-        contaBanco p2 = new contaBanco();
+        ContaBanco p2 = new ContaBanco();
         p2.abrirConta("CP");
         p2.setDonoConta("Selina Kyle");
         p2.setNumConta(87654321);
